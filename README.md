@@ -2,11 +2,11 @@
 
 This repository contains a snapshot of the Database of Irish-Language Surnames *(Bunachar Sloinnte Gaeilge)* developed by the Gaois research group in *Fiontar & Scoil na Gaeilge* in Dublin City University. The structure and design principles of the database are described in this publication:
 
-> Brian Ó Raghallaigh,  Michal Boleslav Měchura, Aengus Ó Fionnagáin, Sophie Osborne (forthcoming, 2020):
-> **‘Handling Irish-language surnames’** 
+> Brian Ó Raghallaigh,  Michal Boleslav Měchura, Aengus Ó Fionnagáin, Sophie Osborne (forthcoming):
+> **‘Developing the Gaois linguistic database of Irish-language surnames’** 
 > in *Names: A Journal of Onomastics*
 
-You can browse the database through our web interface at [www.gaois.ie/surnames/](https://www.gaois.ie/surnames/). This repository contains a downloadable version of the database in XML format which you can reuse in your own applications.
+You can browse the database through our web interface at [www.gaois.ie/sloinnte/](https://www.gaois.ie/sloinnte/). This repository contains a downloadable version of the database in XML format which you can reuse in your own applications.
 
 ## `minimal.xml`
 
