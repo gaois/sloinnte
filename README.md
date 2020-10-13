@@ -6,7 +6,7 @@ This repository contains a snapshot of the Database of Irish-Language Surnames *
 > **‘Developing the Gaois linguistic database of Irish-language surnames’** 
 > in *Names: A Journal of Onomastics*
 
-You can browse the database through our web interface at [www.gaois.ie/sloinnte/](https://www.gaois.ie/sloinnte/). This repository contains a downloadable version of the database in XML format which you can reuse in your own applications.
+You can browse the database through our web interface at [www.gaois.ie/sloinnte/](https://www.gaois.ie/en/surnames/). This repository contains a downloadable version of the database in XML format which you can reuse in your own applications.
 
 ## `minimal.xml`
 
