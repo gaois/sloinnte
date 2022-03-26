@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="cluster">
       <cluster>
-	      <xsl:apply-templates/>
+          <xsl:apply-templates/>
       </cluster>
     </xsl:template>
 
@@ -58,6 +58,7 @@
         <xsl:when test="starts-with($form, 'Mac Giolla ')"><xsl:call-template name="pattern-mac-unmut"/></xsl:when>
         <xsl:when test="starts-with($form, 'Mac Con ')"><xsl:call-template name="pattern-mac-unmut"/></xsl:when>
         <xsl:when test="starts-with($form, 'Mac ')"><xsl:call-template name="pattern-mac"/></xsl:when>
+        <xsl:when test="starts-with($form, 'Mag ')"><xsl:call-template name="pattern-mag"/></xsl:when>
         <xsl:when test="substring($form, string-length($form)-2)='ach' and not(contains($form, ' '))"><xsl:call-template name="pattern-adj-ach"/></xsl:when>
         <xsl:otherwise><xsl:call-template name="pattern-zero"/></xsl:otherwise>
       </xsl:choose>
@@ -70,7 +71,7 @@
 				<form xml:space="preserve" gender="male" case="gen"><xsl:copy-of select="$form"/></form>
 				<form xml:space="preserve" gender="male" case="voc"><xsl:copy-of select="$form"/></form>
 				<form xml:space="preserve" gender="female" case="nom"><xsl:copy-of select="$form"/></form>
-        <form xml:space="preserve" gender="female" case="gen"><xsl:copy-of select="$form"/></form>
+				<form xml:space="preserve" gender="female" case="gen"><xsl:copy-of select="$form"/></form>
 				<form xml:space="preserve" gender="female" case="voc"><xsl:copy-of select="$form"/></form>
       </surname-irish>
     </xsl:template>
@@ -99,7 +100,7 @@
 			<surname-irish>
 				<form xml:space="preserve" gender="male" case="nom"><pre>Mac</pre> <xsl:copy-of select="$base"/></form>
 				<form xml:space="preserve" gender="male" case="gen"><pre>Mhic</pre> <xsl:copy-of select="$base"/></form>
-                <form xml:space="preserve" gender="male" case="voc"><pre>Mhic</pre> <xsl:copy-of select="$base"/></form>
+				<form xml:space="preserve" gender="male" case="voc"><pre>Mhic</pre> <xsl:copy-of select="$base"/></form>
 				<form xml:space="preserve" gender="female" familyStatus="wife" case="nom"><pre>Mhic</pre> <xsl:copy-of select="$base"/></form>
 				<form xml:space="preserve" gender="female" familyStatus="wife" case="gen"><pre>Mhic</pre> <xsl:copy-of select="$base"/></form>
 				<form xml:space="preserve" gender="female" familyStatus="wife" case="voc"><pre>Mhic</pre> <xsl:copy-of select="$base"/></form>
@@ -126,6 +127,23 @@
       </surname-irish>
     </xsl:template>
 
+    <xsl:template name="pattern-mag">
+      <xsl:variable name="form" select="form/text()"/>
+      <xsl:variable name="base"><xsl:call-template name="extract-base"><xsl:with-param name="what" select="$form"/></xsl:call-template></xsl:variable>
+      <xsl:variable name="lenited"><xsl:call-template name="lenite-except-cg"><xsl:with-param name="what" select="$base"/></xsl:call-template></xsl:variable>
+      <surname-irish>
+				<form xml:space="preserve" gender="male" case="nom"><pre>Mag</pre> <xsl:copy-of select="$base"/></form>
+				<form xml:space="preserve" gender="male" case="gen"><pre>Mhig</pre> <xsl:copy-of select="$lenited"/></form>
+				<form xml:space="preserve" gender="male" case="voc"><pre>Mhig</pre> <xsl:copy-of select="$lenited"/></form>
+				<form xml:space="preserve" gender="female" familyStatus="wife" case="nom"><pre>Mhig</pre> <xsl:copy-of select="$lenited"/></form>
+				<form xml:space="preserve" gender="female" familyStatus="wife" case="gen"><pre>Mhig</pre> <xsl:copy-of select="$lenited"/></form>
+				<form xml:space="preserve" gender="female" familyStatus="wife" case="voc"><pre>Mhig</pre> <xsl:copy-of select="$lenited"/></form>
+				<form xml:space="preserve" gender="female" familyStatus="daughter" case="nom"><pre>Nig</pre> <xsl:copy-of select="$lenited"/></form>
+				<form xml:space="preserve" gender="female" familyStatus="daughter" case="gen"><pre>Nig</pre> <xsl:copy-of select="$lenited"/></form>
+				<form xml:space="preserve" gender="female" familyStatus="daughter" case="voc"><pre>Nig</pre> <xsl:copy-of select="$lenited"/></form>
+      </surname-irish>
+    </xsl:template>
+
     <xsl:template name="pattern-adj-ach">
       <xsl:variable name="form" select="form/text()"/>
       <xsl:variable name="lenited"><xsl:call-template name="lenite"><xsl:with-param name="what" select="$form"/></xsl:call-template></xsl:variable>
@@ -148,6 +166,7 @@
         <xsl:when test="starts-with($what, 'Ó h')"><xsl:value-of select="substring($what, 4)"/></xsl:when>
         <xsl:when test="starts-with($what, 'Ó ')"><xsl:value-of select="substring($what, 3)"/></xsl:when>
         <xsl:when test="starts-with($what, 'Mac ')"><xsl:value-of select="substring($what, 5)"/></xsl:when>
+        <xsl:when test="starts-with($what, 'Mag ')"><xsl:value-of select="substring($what, 5)"/></xsl:when>
         <xsl:otherwise><xsl:value-of select="$what"/></xsl:otherwise>
       </xsl:choose>
     </xsl:template>

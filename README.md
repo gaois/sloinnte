@@ -36,7 +36,7 @@ This file contains the database in *minimal* format. Example:
   </cluster>
 ```
 
-Each `<cluster>` contains at least one `<surname-irish>` and at least one `<surname-english>`. Each `<surname-irish>` and each `<surname-english>` contains exactly one `<form>`. There are over 600 such clusters in the database (and in the XML file). Each cluster groups surnames in both languages (Irish and English) which are more or less equivalent (see the publication for an explanation of how we decide when surnames are equivalent and when not).
+Each `<cluster>` contains at least one `<surname-irish>` and at least one `<surname-english>`. Each `<surname-irish>` and each `<surname-english>` contains exactly one `<form>`. There are over 1,000 such clusters in the database (and in the XML file). Each cluster groups surnames in both languages (Irish and English) which are more or less equivalent (see the publication for an explanation of how we decide when surnames are equivalent and when not).
 
 ## `expand.xsl`
 
