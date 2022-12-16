@@ -1997,6 +1997,17 @@
         <form xml:space="preserve" gender="female" familyStatus="daughter" case="gen"><pre>Ní</pre> B<mut>h</mut>rádaigh</form>
         <form xml:space="preserve" gender="female" familyStatus="daughter" case="voc"><pre>Ní</pre> B<mut>h</mut>rádaigh</form>
       </surname-irish>
+      <surname-irish>
+        <form xml:space="preserve" gender="male" case="nom"><pre>Mac</pre> Brádaigh</form>
+        <form xml:space="preserve" gender="male" case="gen"><pre>Mhic</pre> B<mut>h</mut>rádaigh</form>
+        <form xml:space="preserve" gender="male" case="voc"><pre>Mhic</pre> B<mut>h</mut>rádaigh</form>
+        <form xml:space="preserve" gender="female" familyStatus="wife" case="nom"><pre>Mhic</pre> B<mut>h</mut>rádaigh</form>
+        <form xml:space="preserve" gender="female" familyStatus="wife" case="gen"><pre>Mhic</pre> B<mut>h</mut>rádaigh</form>
+        <form xml:space="preserve" gender="female" familyStatus="wife" case="voc"><pre>Mhic</pre> B<mut>h</mut>rádaigh</form>
+        <form xml:space="preserve" gender="female" familyStatus="daughter" case="nom"><pre>Nic</pre> B<mut>h</mut>rádaigh</form>
+        <form xml:space="preserve" gender="female" familyStatus="daughter" case="gen"><pre>Nic</pre> B<mut>h</mut>rádaigh</form>
+        <form xml:space="preserve" gender="female" familyStatus="daughter" case="voc"><pre>Nic</pre> B<mut>h</mut>rádaigh</form>
+      </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
     <surnames-irish-alternative />
