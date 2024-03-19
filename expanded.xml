@@ -232,19 +232,19 @@
     <surnames-irish-main>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Breathnach</form>
-        <form xml:space="preserve" gender="male" case="gen">Bhreathnaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Bhreathnaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">B<mut>h</mut>reathnaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">B<mut>h</mut>reathnaigh</form>
         <form xml:space="preserve" gender="female" case="nom">B<mut>h</mut>reathnach</form>
-        <form xml:space="preserve" gender="female" case="gen">Bhreathnaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Bhreathnaí</form>
+        <form xml:space="preserve" gender="female" case="gen">B<mut>h</mut>reathnach</form>
+        <form xml:space="preserve" gender="female" case="voc">B<mut>h</mut>reathnach</form>
       </surname-irish>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Breatnach</form>
-        <form xml:space="preserve" gender="male" case="gen">Bhreatnaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Bhreatnaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">B<mut>h</mut>reatnaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">B<mut>h</mut>reatnaigh</form>
         <form xml:space="preserve" gender="female" case="nom">B<mut>h</mut>reatnach</form>
-        <form xml:space="preserve" gender="female" case="gen">Bhreatnaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Bhreatnaí</form>
+        <form xml:space="preserve" gender="female" case="gen">B<mut>h</mut>reatnach</form>
+        <form xml:space="preserve" gender="female" case="voc">B<mut>h</mut>reatnach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
@@ -1348,11 +1348,11 @@
     <surnames-irish-main>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Caomhánach</form>
-        <form xml:space="preserve" gender="male" case="gen">Chaomhánaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Chaomhánaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">C<mut>h</mut>aomhánaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">C<mut>h</mut>aomhánaigh</form>
         <form xml:space="preserve" gender="female" case="nom">C<mut>h</mut>aomhánach</form>
-        <form xml:space="preserve" gender="female" case="gen">Chaomhánaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Chaomhánaí</form>
+        <form xml:space="preserve" gender="female" case="gen">C<mut>h</mut>aomhánach</form>
+        <form xml:space="preserve" gender="female" case="voc">C<mut>h</mut>aomhánach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
@@ -4317,11 +4317,11 @@
     <surnames-irish-main>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Cinsealach</form>
-        <form xml:space="preserve" gender="male" case="gen">Chinsealaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Chinsealaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">C<mut>h</mut>insealaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">C<mut>h</mut>insealaigh</form>
         <form xml:space="preserve" gender="female" case="nom">C<mut>h</mut>insealach</form>
-        <form xml:space="preserve" gender="female" case="gen">Chinsealaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Chinsealaí</form>
+        <form xml:space="preserve" gender="female" case="gen">C<mut>h</mut>insealach</form>
+        <form xml:space="preserve" gender="female" case="voc">C<mut>h</mut>insealach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
@@ -10502,11 +10502,11 @@
     <surnames-irish-main>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Déiseach</form>
-        <form xml:space="preserve" gender="male" case="gen">Dhéiseaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Dhéiseaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">D<mut>h</mut>éiseaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">D<mut>h</mut>éiseaigh</form>
         <form xml:space="preserve" gender="female" case="nom">D<mut>h</mut>éiseach</form>
-        <form xml:space="preserve" gender="female" case="gen">Dhéiseaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Dhéiseaí</form>
+        <form xml:space="preserve" gender="female" case="gen">D<mut>h</mut>éiseach</form>
+        <form xml:space="preserve" gender="female" case="voc">D<mut>h</mut>éiseach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
@@ -15860,11 +15860,11 @@
     <surnames-irish-main>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Miach</form>
-        <form xml:space="preserve" gender="male" case="gen">Mhiaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Mhiaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">M<mut>h</mut>iaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">M<mut>h</mut>iaigh</form>
         <form xml:space="preserve" gender="female" case="nom">M<mut>h</mut>iach</form>
-        <form xml:space="preserve" gender="female" case="gen">Mhiaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Mhiaí</form>
+        <form xml:space="preserve" gender="female" case="gen">M<mut>h</mut>iach</form>
+        <form xml:space="preserve" gender="female" case="voc">M<mut>h</mut>iach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
@@ -17584,22 +17584,22 @@
     <surnames-irish-main>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Meirtneach</form>
-        <form xml:space="preserve" gender="male" case="gen">Mheirtneaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Mheirtneaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">M<mut>h</mut>eirtneaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">M<mut>h</mut>eirtneaigh</form>
         <form xml:space="preserve" gender="female" case="nom">M<mut>h</mut>eirtneach</form>
-        <form xml:space="preserve" gender="female" case="gen">Mheirtneaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Mheirtneaí</form>
+        <form xml:space="preserve" gender="female" case="gen">M<mut>h</mut>eirtneach</form>
+        <form xml:space="preserve" gender="female" case="voc">M<mut>h</mut>eirtneach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
     <surnames-irish-alternative>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Méaranach</form>
-        <form xml:space="preserve" gender="male" case="gen">Mhéaranaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Mhéaranaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">M<mut>h</mut>éaranaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">M<mut>h</mut>éaranaigh</form>
         <form xml:space="preserve" gender="female" case="nom">M<mut>h</mut>éaranach</form>
-        <form xml:space="preserve" gender="female" case="gen">Mhéaranaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Mhéaranaí</form>
+        <form xml:space="preserve" gender="female" case="gen">M<mut>h</mut>éaranach</form>
+        <form xml:space="preserve" gender="female" case="voc">M<mut>h</mut>éaranach</form>
       </surname-irish>
     </surnames-irish-alternative>
     <surnames-english-main>
@@ -20737,8 +20737,8 @@
         <form xml:space="preserve" gender="male" case="gen">Laighneaigh</form>
         <form xml:space="preserve" gender="male" case="voc">Laighneaigh</form>
         <form xml:space="preserve" gender="female" case="nom">Laighneach</form>
-        <form xml:space="preserve" gender="female" case="gen">Laighneaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Laighneaí</form>
+        <form xml:space="preserve" gender="female" case="gen">Laighneach</form>
+        <form xml:space="preserve" gender="female" case="voc">Laighneach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
@@ -23341,11 +23341,11 @@
     <surnames-irish-main>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom">Craobhach</form>
-        <form xml:space="preserve" gender="male" case="gen">Chraobhaigh</form>
-        <form xml:space="preserve" gender="male" case="voc">Chraobhaigh</form>
+        <form xml:space="preserve" gender="male" case="gen">C<mut>h</mut>raobhaigh</form>
+        <form xml:space="preserve" gender="male" case="voc">C<mut>h</mut>raobhaigh</form>
         <form xml:space="preserve" gender="female" case="nom">C<mut>h</mut>raobhach</form>
-        <form xml:space="preserve" gender="female" case="gen">Chraobhaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Chraobhaí</form>
+        <form xml:space="preserve" gender="female" case="gen">C<mut>h</mut>raobhach</form>
+        <form xml:space="preserve" gender="female" case="voc">C<mut>h</mut>raobhach</form>
       </surname-irish>
       <surname-irish>
         <form xml:space="preserve" gender="male" case="nom"><pre>Ó</pre> Craobhaigh</form>
@@ -28284,8 +28284,8 @@
         <form xml:space="preserve" gender="male" case="gen">Spáinneaigh</form>
         <form xml:space="preserve" gender="male" case="voc">Spáinneaigh</form>
         <form xml:space="preserve" gender="female" case="nom">Spáinneach</form>
-        <form xml:space="preserve" gender="female" case="gen">Spáinneaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Spáinneaí</form>
+        <form xml:space="preserve" gender="female" case="gen">Spáinneach</form>
+        <form xml:space="preserve" gender="female" case="voc">Spáinneach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />
@@ -30048,8 +30048,8 @@
         <form xml:space="preserve" gender="male" case="gen">Riabhaigh</form>
         <form xml:space="preserve" gender="male" case="voc">Riabhaigh</form>
         <form xml:space="preserve" gender="female" case="nom">Riabhach</form>
-        <form xml:space="preserve" gender="female" case="gen">Riabhaí</form>
-        <form xml:space="preserve" gender="female" case="voc">Riabhaí</form>
+        <form xml:space="preserve" gender="female" case="gen">Riabhach</form>
+        <form xml:space="preserve" gender="female" case="voc">Riabhach</form>
       </surname-irish>
     </surnames-irish-main>
     <surnames-irish-historical />

@@ -147,15 +147,15 @@
     <xsl:template name="pattern-adj-ach">
       <xsl:variable name="form" select="form/text()"/>
       <xsl:variable name="lenited"><xsl:call-template name="lenite"><xsl:with-param name="what" select="$form"/></xsl:call-template></xsl:variable>
-      <xsl:variable name="gm"><xsl:call-template name="genitivise-ending-masc"><xsl:with-param name="what" select="$lenited"/></xsl:call-template></xsl:variable>
-      <xsl:variable name="gf"><xsl:call-template name="genitivise-ending-fem"><xsl:with-param name="what" select="$lenited"/></xsl:call-template></xsl:variable>
+      <xsl:variable name="gm"><xsl:call-template name="genitivise-ending-masc"><xsl:with-param name="what" select="form"/></xsl:call-template></xsl:variable>
+      <xsl:variable name="gm-lenited"><xsl:call-template name="lenite"><xsl:with-param name="what" select="$gm"/></xsl:call-template></xsl:variable>
       <surname-irish>
 				<form xml:space="preserve" gender="male" case="nom"><xsl:copy-of select="$form"/></form>
-				<form xml:space="preserve" gender="male" case="gen"><xsl:copy-of select="$gm"/></form>
-				<form xml:space="preserve" gender="male" case="voc"><xsl:copy-of select="$gm"/></form>
+				<form xml:space="preserve" gender="male" case="gen"><xsl:copy-of select="$gm-lenited"/></form>
+				<form xml:space="preserve" gender="male" case="voc"><xsl:copy-of select="$gm-lenited"/></form>
 				<form xml:space="preserve" gender="female" case="nom"><xsl:copy-of select="$lenited"/></form>
-				<form xml:space="preserve" gender="female" case="gen"><xsl:copy-of select="$gf"/></form>
-				<form xml:space="preserve" gender="female" case="voc"><xsl:copy-of select="$gf"/></form>
+				<form xml:space="preserve" gender="female" case="gen"><xsl:copy-of select="$lenited"/></form>
+				<form xml:space="preserve" gender="female" case="voc"><xsl:copy-of select="$lenited"/></form>
       </surname-irish>
     </xsl:template>
 
